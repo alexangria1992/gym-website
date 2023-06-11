@@ -8,9 +8,9 @@ const About = () => {
   const { title, subtitle1, subtitle2, icon, link } = about;
   return (
     <section className=" py-[80px] md:py-[110px] lg:pt-[140px] lg:pb-[180px]">
-      <div className="container mx-auto px-[20px] lg:px-[135px] border-2 border-red-500">
+      <div className="container mx-auto px-[20px] lg:px-[135px] ">
         <div
-          className="section-title-group justify-start border-2 border-blue-500"
+          className="section-title-group justify-start "
           data-aos="fade-up"
           data-aos-delay="100"
         >
